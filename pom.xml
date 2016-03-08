@@ -42,13 +42,23 @@
 			<version>4.1.4.RELEASE</version>
 		</dependency>
 
+
+
 		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-core-asl</artifactId>
-			<version>1.9.13</version>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.5.0</version>
 		</dependency>
-
-
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.5.0</version>
+		</dependency>
 
 		<dependency>
 			<!-- spring -->
@@ -56,12 +66,12 @@
 			<artifactId>spring-context</artifactId>
 			<version>4.0.9.RELEASE</version>
 		</dependency>
-			<!-- spring + dbcp需要用到 -->
+		<!-- spring + dbcp需要用到 -->
 		<dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>4.0.6.RELEASE</version>
-        </dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>4.0.6.RELEASE</version>
+		</dependency>
 		<dependency>
 			<!-- aop -->
 			<groupId>org.aspectj</groupId>
